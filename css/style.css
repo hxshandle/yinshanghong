@@ -1,0 +1,51 @@
+@font-face {
+  font-family: didot-bold;
+  src: url(../fonts/Didot_Bold.ttf); }
+
+@font-face {
+  font-family: didot;
+  src: url(../fonts/Didot.ttf); }
+
+.row {
+  width: 100%; }
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.page-section {
+  height: 823px; }
+  .page-section .content {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto; }
+
+.img-bg {
+  display: none; }
+
+.top-nav {
+  height: 62px;
+  position: fixed;
+  background: #f1f0ec;
+  width: 100%;
+  top: 0px;
+  z-index: 99999; }
+  .top-nav .logo {
+    margin-left: 40px; }
+  .top-nav .top-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right; }
+    .top-nav .top-menu li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      line-height: 62px;
+      cursor: pointer; }
+      .top-nav .top-menu li a {
+        text-decoration: none;
+        font-size: 11px;
+        color: #666; }

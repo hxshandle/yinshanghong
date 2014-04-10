@@ -1,0 +1,30 @@
+@font-face {
+  font-family: didot-bold;
+  src: url(../fonts/Didot_Bold.ttf);
+}
+@font-face {
+  font-family: didot;
+  src: url(../fonts/Didot.ttf);
+}
+
+.row{
+  width:100%;
+}
+ul,li{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.page-section{
+  height:823px;
+  .content{
+    width:1000px;
+    height: 100%;
+    margin:0 auto;
+  }
+}
+.img-bg{
+  display:none;
+}
+
+@import "_top_nav";
