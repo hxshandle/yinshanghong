@@ -1,0 +1,45 @@
+#parallax-nav{
+  position:fixed;
+  top:50%;
+  margin-top:-70px;
+  right:15px;
+  z-index:999;
+  padding-right:14px;
+  ul{
+    li{
+      padding: 10px 0 0px 15px;
+      cursor: pointer;
+      a{
+        display:block;
+        width:15px;
+        height:15px;
+        background:url(../img/point.png) no-repeat 50% 50%;
+        span{
+          position:absolute;
+          right:0px;
+          white-space:nowrap;
+          font-size:13px;
+          color:#000;
+          visibility: hidden;
+          opacity: 0;
+          -webkit-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+          -moz-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+          -ms-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+          -o-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+          transition: all .3s cubic-bezier(.23, 1, .32, 1);
+        }// END span
+      }// END a
+      &:hover{
+        a{
+          span{
+            right: 20px;
+            opacity: 1;
+            z-index: 999;
+            padding-right: 15px;
+            visibility: visible;
+          }// END span
+        }// END a
+      }// END li:hover
+    }// END li
+  }// END ul
+}// END #parallax

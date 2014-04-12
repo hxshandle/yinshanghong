@@ -5,14 +5,20 @@
     position:relative;
     height: 100%;
     ul{
+      padding-top:200px;
       width:100%;
+      text-align:center;
       li{
         display: inline-block;
+        &.ml{
+          margin-left:90px;
+        }
         .wrapper{
           width:300px;
           height: 483px;
           overflow: hidden;
           position:relative;
+          text-align:left;
           .title{
             font-size:14px;
             color:#000;
@@ -20,6 +26,7 @@
             padding-top:12px;
             padding-bottom:20px;
           }
+          text-align:left;
           .article{
             font-size:12px;
             color:#999;
@@ -40,10 +47,11 @@
             position: absolute;
             bottom:0;
             text-decoration: none;
+            margin-bottom:-5px;
           }
         }// END .wrapper
         img{
-          vertical-align:bottom;
+          vertical-align:baseline;
         }
       }// END li
     }// END ul
