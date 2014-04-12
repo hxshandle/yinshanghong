@@ -26,5 +26,12 @@ ul,li{
 .img-bg{
   display:none;
 }
+.img-liquid-fill{
+  background-attachment: fixed;
+}
 
 @import "_top_nav";
+@import "_landing";
+@import "_collaction";
+@import "_about_brand";
+@import "_about_brand2";

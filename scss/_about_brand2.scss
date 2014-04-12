@@ -1,0 +1,51 @@
+#about-brand2{
+  .container{
+    width:1000px;
+    margin:0 auto;
+    position:relative;
+    height: 100%;
+    ul{
+      width:100%;
+      li{
+        display: inline-block;
+        .wrapper{
+          width:300px;
+          height: 483px;
+          overflow: hidden;
+          position:relative;
+          .title{
+            font-size:14px;
+            color:#000;
+            letter-spacing: 2px;
+            padding-top:12px;
+            padding-bottom:20px;
+          }
+          .article{
+            font-size:12px;
+            color:#999;
+            height: 370px;
+            .jspDrag{
+              background:#000;
+            }
+            .jspTrack{
+              background:none;
+            }
+            .jspVerticalBar{
+              background:url('../img/scroller-bg.png') repeat-y;
+            }
+          }// END .article
+          .more{
+            color:#000;
+            font-size:14px;
+            position: absolute;
+            bottom:0;
+            text-decoration: none;
+          }
+        }// END .wrapper
+        img{
+          vertical-align:bottom;
+        }
+      }// END li
+    }// END ul
+  }// END .container
+}// END #about-brand2

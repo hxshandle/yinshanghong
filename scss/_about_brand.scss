@@ -1,0 +1,22 @@
+#about-brand{
+  width:100%;
+  height: 599px;
+  position:relative;
+  .wrapper{
+    position: absolute;
+    text-align: center;
+    color:#fff;
+    .title{
+      font-size:33px;
+    }
+    .sub-title{
+      letter-spacing:10px;
+      padding-left:10px;
+      font-size:12px;
+    }
+
+  }// .wrapper
+  .scroll-down{
+    position: absolute;
+  }
+}// END #about-brand

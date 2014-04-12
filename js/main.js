@@ -18,6 +18,7 @@ $(function() {
 	$(".img-liquid-fill").imgLiquid();
 	$(".img-liquid-fill-top").imgLiquid({verticalAlign:'top'});
 	$('.top-menu a,.scroll-down').smoothScroll();
+	$('.center').center({against:'parent'});
 	doResize();
 	$(window).resize(doResize);
 });

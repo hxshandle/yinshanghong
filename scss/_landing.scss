@@ -1,0 +1,31 @@
+#landing{
+  margin-top:62px;
+  .container-full{
+    height:100%;
+    position:relative;
+    .wrapper{
+      position:absolute;
+      text-align: center;
+      top:45%;
+      color:#fff;
+      .title{
+        font-size:45px;
+      }
+      .split{
+        border-bottom:1px solid #fff;
+        padding-top:10px;
+      }
+      .sub-title{
+        font-family: didot;
+        font-size:16px;
+        letter-spacing:10px;
+        padding-left:10px;
+        padding-top:16px;
+      }
+    }// END .wrapper
+    .scroll-down{
+      position:absolute;
+    }
+  }// END .container-full
+
+}// END .landing

@@ -1,0 +1,60 @@
+#collaction{
+  .container{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+    #collaction-selector{
+      position:absolute;
+      border:1px solid #000;
+      width:320px;
+      height: 670px;
+      top:90px;
+      left:18px;
+      .arrow{
+        background:url(../img/black-arrow-down.png) no-repeat 50% 50%;
+        height:15px;
+        width:100%;
+        margin-top:20px;
+      }
+      .title{
+        font-size:33px;
+        padding-top:10px;
+        text-align: center;
+      }
+      .split{
+        border-bottom:1px solid #000;
+        margin:0 25px;
+      }
+      .txt{
+        font-size:12px;
+        letter-spacing:10px;
+        text-align: center;
+        padding-top:6px;
+      }
+      .more{
+        background:url(../img/more.png);
+        height: 30px;
+        width: 80px;
+        display: inline-block;
+        position:absolute;
+        left:116px;
+        bottom:20px;
+
+      }
+    }// END #collaction-selector
+    .img-gallery{
+      width:100%;
+      text-align: center;
+      padding-top:265px;
+      li{
+        display:inline-block;
+        cursor:pointer;
+        &.ml{
+          margin-right:12px;
+        }
+      }// END li
+    }// END .img-gallery
+  }// END .container
+
+}// END .#collaction

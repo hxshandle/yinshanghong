@@ -24,6 +24,9 @@ ul, li {
 .img-bg {
   display: none; }
 
+.img-liquid-fill {
+  background-attachment: fixed; }
+
 .top-nav {
   height: 62px;
   position: fixed;
@@ -49,3 +52,130 @@ ul, li {
         text-decoration: none;
         font-size: 11px;
         color: #666; }
+
+#landing {
+  margin-top: 62px; }
+  #landing .container-full {
+    height: 100%;
+    position: relative; }
+    #landing .container-full .wrapper {
+      position: absolute;
+      text-align: center;
+      top: 45%;
+      color: #fff; }
+      #landing .container-full .wrapper .title {
+        font-size: 45px; }
+      #landing .container-full .wrapper .split {
+        border-bottom: 1px solid #fff;
+        padding-top: 10px; }
+      #landing .container-full .wrapper .sub-title {
+        font-family: didot;
+        font-size: 16px;
+        letter-spacing: 10px;
+        padding-left: 10px;
+        padding-top: 16px; }
+    #landing .container-full .scroll-down {
+      position: absolute; }
+
+#collaction .container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative; }
+  #collaction .container #collaction-selector {
+    position: absolute;
+    border: 1px solid #000;
+    width: 320px;
+    height: 670px;
+    top: 90px;
+    left: 18px; }
+    #collaction .container #collaction-selector .arrow {
+      background: url(../img/black-arrow-down.png) no-repeat 50% 50%;
+      height: 15px;
+      width: 100%;
+      margin-top: 20px; }
+    #collaction .container #collaction-selector .title {
+      font-size: 33px;
+      padding-top: 10px;
+      text-align: center; }
+    #collaction .container #collaction-selector .split {
+      border-bottom: 1px solid #000;
+      margin: 0 25px; }
+    #collaction .container #collaction-selector .txt {
+      font-size: 12px;
+      letter-spacing: 10px;
+      text-align: center;
+      padding-top: 6px; }
+    #collaction .container #collaction-selector .more {
+      background: url(../img/more.png);
+      height: 30px;
+      width: 80px;
+      display: inline-block;
+      position: absolute;
+      left: 116px;
+      bottom: 20px; }
+  #collaction .container .img-gallery {
+    width: 100%;
+    text-align: center;
+    padding-top: 265px; }
+    #collaction .container .img-gallery li {
+      display: inline-block;
+      cursor: pointer; }
+      #collaction .container .img-gallery li.ml {
+        margin-right: 12px; }
+
+#about-brand {
+  width: 100%;
+  height: 599px;
+  position: relative; }
+  #about-brand .wrapper {
+    position: absolute;
+    text-align: center;
+    color: #fff; }
+    #about-brand .wrapper .title {
+      font-size: 33px; }
+    #about-brand .wrapper .sub-title {
+      letter-spacing: 10px;
+      padding-left: 10px;
+      font-size: 12px; }
+  #about-brand .scroll-down {
+    position: absolute; }
+
+#about-brand2 .container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  height: 100%; }
+  #about-brand2 .container ul {
+    width: 100%; }
+    #about-brand2 .container ul li {
+      display: inline-block; }
+      #about-brand2 .container ul li .wrapper {
+        width: 300px;
+        height: 483px;
+        overflow: hidden;
+        position: relative; }
+        #about-brand2 .container ul li .wrapper .title {
+          font-size: 14px;
+          color: #000;
+          letter-spacing: 2px;
+          padding-top: 12px;
+          padding-bottom: 20px; }
+        #about-brand2 .container ul li .wrapper .article {
+          font-size: 12px;
+          color: #999;
+          height: 370px; }
+          #about-brand2 .container ul li .wrapper .article .jspDrag {
+            background: #000; }
+          #about-brand2 .container ul li .wrapper .article .jspTrack {
+            background: none; }
+          #about-brand2 .container ul li .wrapper .article .jspVerticalBar {
+            background: url("../img/scroller-bg.png") repeat-y; }
+        #about-brand2 .container ul li .wrapper .more {
+          color: #000;
+          font-size: 14px;
+          position: absolute;
+          bottom: 0;
+          text-decoration: none; }
+      #about-brand2 .container ul li img {
+        vertical-align: bottom; }
