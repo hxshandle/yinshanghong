@@ -63,6 +63,8 @@ ul, li {
   #parallax-nav ul li {
     padding: 10px 0 0px 15px;
     cursor: pointer; }
+    #parallax-nav ul li.active a {
+      background: url(../img/active-point.png) no-repeat 50% 50%; }
     #parallax-nav ul li a {
       display: block;
       width: 15px;
@@ -159,21 +161,21 @@ ul, li {
       #collaction .container .img-gallery li.ml {
         margin-right: 12px; }
 
-#about-brand {
+#about-brand, #about-brand {
   width: 100%;
   height: 599px;
   position: relative; }
-  #about-brand .wrapper {
+  #about-brand .wrapper, #about-brand .wrapper {
     position: absolute;
     text-align: center;
     color: #fff; }
-    #about-brand .wrapper .title {
+    #about-brand .wrapper .title, #about-brand .wrapper .title {
       font-size: 33px; }
-    #about-brand .wrapper .sub-title {
+    #about-brand .wrapper .sub-title, #about-brand .wrapper .sub-title {
       letter-spacing: 10px;
       padding-left: 10px;
       font-size: 12px; }
-  #about-brand .scroll-down {
+  #about-brand .scroll-down, #about-brand .scroll-down {
     position: absolute; }
 
 #about-brand2 .container {
@@ -222,10 +224,86 @@ ul, li {
       #about-brand2 .container ul li img {
         vertical-align: baseline; }
 
+#brand-news2 {
+  position: relative; }
+  #brand-news2 .scroll-up {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    cursort: pointer;
+    margin-left: -43px; }
+  #brand-news2 .container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto; }
+    #brand-news2 .container .selector {
+      width: 635px;
+      margin: 0 auto;
+      padding-top: 100px; }
+      #brand-news2 .container .selector span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 2px;
+        background: url(../img/point.png) no-repeat 50% 50%;
+        cursor: pointer; }
+        #brand-news2 .container .selector span.active {
+          background: url(../img/active-point.png) no-repeat 50% 50%; }
+    #brand-news2 .container .news-collection {
+      position: relative;
+      width: 1000px;
+      height: 460px;
+      overflow: hidden; }
+      #brand-news2 .container .news-collection .news {
+        position: absolute;
+        width: 1000px;
+        height: 100%; }
+        #brand-news2 .container .news-collection .news ul {
+          width: 635px;
+          height: 100%;
+          font-size: 0;
+          margin: 0 auto; }
+          #brand-news2 .container .news-collection .news ul li {
+            display: inline-block;
+            float: left; }
+            #brand-news2 .container .news-collection .news ul li img {
+              vertical-align: baseline; }
+            #brand-news2 .container .news-collection .news ul li .polt {
+              position: relative;
+              margin-right: 6px;
+              width: 314px;
+              height: 455px;
+              background: #fff; }
+              #brand-news2 .container .news-collection .news ul li .polt .txt {
+                margin-top: 30px;
+                font-size: 12px;
+                color: #999;
+                padding-left: 10px; }
+              #brand-news2 .container .news-collection .news ul li .polt .more {
+                font-size: 14px;
+                color: #000;
+                position: absolute;
+                bottom: 20px;
+                left: 10px;
+                text-decoration: none; }
+                #brand-news2 .container .news-collection .news ul li .polt .more:hover {
+                  text-decoration: underline; }
+
 #foot-nav {
   width: 100%;
   height: 330px;
-  background: #f1f0ec; }
+  background: #f1f0ec;
+  position: relative; }
+  #foot-nav #move-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+    display: block;
+    width: 49px;
+    height: 28px;
+    cursor: pointer;
+    background: url(../img/top.png) no-repeat 50% 50%; }
   #foot-nav .container {
     width: 1000px;
     margin: 0 auto; }
