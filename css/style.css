@@ -24,7 +24,7 @@ ul, li {
 .img-bg {
   display: none; }
 
-.img-liquid-fill {
+.img-liquid-fill, .img-liquid-fill-top {
   background-attachment: fixed; }
 
 .top-nav {
