@@ -161,21 +161,21 @@ ul, li {
       #collaction .container .img-gallery li.ml {
         margin-right: 12px; }
 
-#about-brand, #about-brand {
+#about-brand, #brand-news {
   width: 100%;
   height: 599px;
   position: relative; }
-  #about-brand .wrapper, #about-brand .wrapper {
+  #about-brand .wrapper, #brand-news .wrapper {
     position: absolute;
     text-align: center;
     color: #fff; }
-    #about-brand .wrapper .title, #about-brand .wrapper .title {
+    #about-brand .wrapper .title, #brand-news .wrapper .title {
       font-size: 33px; }
-    #about-brand .wrapper .sub-title, #about-brand .wrapper .sub-title {
+    #about-brand .wrapper .sub-title, #brand-news .wrapper .sub-title {
       letter-spacing: 10px;
       padding-left: 10px;
       font-size: 12px; }
-  #about-brand .scroll-down, #about-brand .scroll-down {
+  #about-brand .scroll-down, #brand-news .scroll-down {
     position: absolute; }
 
 #about-brand2 .container {
