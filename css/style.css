@@ -27,11 +27,17 @@ ul, li {
 .img-liquid-fill, .img-liquid-fill-top {
   background-attachment: fixed; }
 
+.fl {
+  float: left; }
+
 .ft-NSimSun {
   font-family: NSimSun; }
 
 .ft-arial {
   font-family: Arial; }
+
+.fz-14 {
+  font-size: 14px; }
 
 .inner_header {
   position: relative; }
@@ -319,6 +325,55 @@ ul, li {
       height: 0px;
       border-bottom: 1px solid #999;
       margin-top: 60px; }
+    #store-show .container .search-area {
+      padding-left: 85px;
+      padding-top: 50px; }
+      #store-show .container .search-area .right-arrow {
+        margin-right: 10px; }
+      #store-show .container .search-area .fz-14 {
+        color: #333; }
+      #store-show .container .search-area .sbHolder {
+        float: left;
+        border: 0px;
+        text-align: right;
+        font-size: 14px;
+        color: #666; }
+      #store-show .container .search-area .search-btn a {
+        text-decoration: none;
+        color: #e3e3e3;
+        font-size: 12px;
+        display: inline-block;
+        background: #666;
+        padding: 0 15px; }
+    #store-show .container .image-outer {
+      margin-top: 50px;
+      position: relative;
+      width: 1000px;
+      height: 500px;
+      overflow: hidden; }
+      #store-show .container .image-outer a {
+        position: absolute;
+        width: 50px;
+        height: 100%;
+        z-index: 2;
+        cursor: pointer; }
+      #store-show .container .image-outer .pre {
+        left: 0;
+        background: url(../img/move-l.png) no-repeat 50% 50%; }
+      #store-show .container .image-outer .next {
+        right: 0;
+        background: url(../img/move-r.png) no-repeat 50% 50%; }
+      #store-show .container .image-outer .store-images {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        list-style: none;
+        font-size: 0px;
+        display: none; }
+        #store-show .container .image-outer .store-images.active {
+          display: block; }
+        #store-show .container .image-outer .store-images li {
+          display: inline-block; }
 
 #foot-nav {
   width: 100%;

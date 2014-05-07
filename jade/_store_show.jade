@@ -1,7 +1,48 @@
+mixin gdata
+  - for (var k = 0 ; k< 5; k++)
+    input(type='hidden' class='d-province' "data-sub"="city-sel" "data-ref"="d-city-#{k}" "data-id"="p-#{k}" "data-label"="省-#{k}" "id"="p-#{k}")
+    - for (var p = 0 ; p < 5; p++)
+      input(type="hidden" class="d-city-#{k}" "data-sub"="district-sel" "data-ref"="d-district-#{k}-#{p}" "id"="c-#{k}-#{p}" "data-id"="c-#{k}-#{p}" "data-label"="省-#{k}-市-#{p}")
+      - for (var i = 0 ; i < 5; i++)
+        input(type="hidden" class="d-district-#{k}-#{p}" "id"="d-#{k}-#{p}-#{i}" "data-id"="d-#{k}-#{p}-#{i}" "data-label"="省-#{k}-市-#{p}-区-#{i}")
+
+mixin imgGallery
+  - for (var k = 0; k < 5; k++)
+    - for (var p = 0; p < 5; p++)
+      - for (var j = 0; j < 5; j++)
+        ul.store-images(id="store-d-#{k}-#{p}-#{j}" "data-curIdx"=0)
+          - for (var i = 0 ; i < 5; i++)
+            li
+              img(src="img/img-5.jpg")
+
+    
+  
 .row.page-section#store-show
   .container
     .split
     .search-area
-      img(src="img/brand-txt-logo.png")
+      img.txt-logo(src="img/brand-txt-logo.png")
+      .search-inner
+        .fl
+          img.right-arrow(src="img/black-arrow-right.png")
+          span.ft-NimSun.fz-14 门店/Stores
+        input.default-province(type='hidden' value='d-province')
+        +gdata
+        .province-sel-box.fl
+          select.province-sel.fl#province-sel
+        .city-sel-box.fl
+          select.city-sel.fl#city-sel
+        .district-sel-box.fl
+          select.district-sel.fl#district-sel
+        .search-btn.f1
+          a.search-img(href="javascript:void(0)") 搜索
+    .image-outer
+      a.pre
+      a.next
+      +imgGallery
+
+
+        
+        
 
 

@@ -7,7 +7,7 @@
 	font-weight: normal;
 	height: 30px;
 	position: relative;
-	width: 200px;
+	width: 150px;
 }
 .sbHolder:focus .sbSelector{
 	
@@ -22,10 +22,10 @@
 	position: absolute;
 	text-indent: 10px;
 	top: 0;
-	width: 170px;
+	width: 120px;
 }
 .sbSelector:link, .sbSelector:visited, .sbSelector:hover{
-	color: #ccc;
+	color: #666;
 	outline: none;
 	text-decoration: none;
 }
@@ -67,7 +67,7 @@
 	padding: 0;
 	position: absolute;
 	top: 30px;
-	width: 200px;
+	width: 150px;
 	z-index: 1;
 	overflow-y: auto;
 }
@@ -87,7 +87,7 @@
 .sbOptions a:hover,
 .sbOptions a:focus,
 .sbOptions a.sbFocus{
-	color: #b2975b;
+	color: #666;
 }
 .sbOptions li.last a{
 	border-bottom: none;

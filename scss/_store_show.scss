@@ -9,6 +9,70 @@
       height:0px;
       border-bottom:1px solid #999;
       margin-top:60px;
-    }
+    }// END .split
+    .search-area{
+      padding-left:85px;
+      padding-top:50px;
+      .right-arrow{
+        margin-right:10px;
+      }
+      .fz-14{
+        color:#333;
+      }
+      .sbHolder{
+        float:left;
+        border:0px;
+        text-align:right;
+        font-size:14px;
+        color:#666;
+      }
+      .search-btn{
+        a{
+          text-decoration:none;
+          color:#e3e3e3;
+          font-size:12px;
+          display:inline-block;
+          background:#666;
+          padding:0 15px;
+        }
+      }
+    }// END .search-area
+    .image-outer{
+      margin-top:50px;
+      position:relative;
+      width:1000px;
+      height:500px;
+      overflow:hidden;
+      a{
+        position:absolute;
+        width:50px;
+        height:100%;
+        z-index:2;
+        cursor:pointer;
+      }
+      .pre{
+        left:0;
+        background:url(../img/move-l.png) no-repeat 50% 50%;
+      }
+      .next{
+        right:0;
+        background:url(../img/move-r.png) no-repeat 50% 50%;
+      }
+
+      .store-images{
+        position:absolute;
+        left:0px;
+        top:0px;
+        list-style:none;
+        font-size:0px;
+        display:none;
+        &.active{
+          display:block;
+        }
+        li{
+          display:inline-block;
+        }
+      }// END .store-image-outer
+    }// END .img-outer
   }// END .container
 }

@@ -35,6 +35,7 @@ function doScrollSpy() {
 	});
 }
 
+
 $(function() {
 	$('.jScrollPane').jScrollPane();
 	$(".img-liquid-fill").imgLiquid();
