@@ -30,6 +30,8 @@ ul,li{
   background-attachment: fixed;
 }
 
+@import "_fonts";
+@import "_inner_header";
 @import "_top_nav";
 @import "_parallax_nav";
 @import "_landing";
@@ -37,4 +39,6 @@ ul,li{
 @import "_about_brand";
 @import "_about_brand2";
 @import "_brand_news2";
+// for inner page
+@import "_store_show";
 @import "_foot_nav";

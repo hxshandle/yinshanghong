@@ -1,0 +1,14 @@
+#store-show{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  .container{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    .split{
+      height:0px;
+      border-bottom:1px solid #999;
+      margin-top:60px;
+    }
+  }// END .container
+}

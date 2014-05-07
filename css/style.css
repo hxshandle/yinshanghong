@@ -27,6 +27,25 @@ ul, li {
 .img-liquid-fill, .img-liquid-fill-top {
   background-attachment: fixed; }
 
+.ft-NSimSun {
+  font-family: NSimSun; }
+
+.ft-arial {
+  font-family: Arial; }
+
+.inner_header {
+  position: relative; }
+  .inner_header .wrapper {
+    position: absolute;
+    top: 45%;
+    color: #fff;
+    text-align: center; }
+    .inner_header .wrapper .title {
+      font-size: 33px; }
+    .inner_header .wrapper .sub-title {
+      font-size: 12px;
+      letter-spacing: 12px; }
+
 .top-nav {
   height: 62px;
   position: fixed;
@@ -288,6 +307,18 @@ ul, li {
                 text-decoration: none; }
                 #brand-news2 .container .news-collection .news ul li .polt .more:hover {
                   text-decoration: underline; }
+
+#store-show {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+  #store-show .container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto; }
+    #store-show .container .split {
+      height: 0px;
+      border-bottom: 1px solid #999;
+      margin-top: 60px; }
 
 #foot-nav {
   width: 100%;
