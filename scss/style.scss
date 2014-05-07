@@ -23,11 +23,22 @@ ul,li{
     margin:0 auto;
   }
 }
+.page-section-small{
+  height:645px;
+  .container{
+    width:1000px;
+    height: 100%;
+    margin:0 auto;
+  }
+}
 .img-bg{
   display:none;
 }
 .img-liquid-fill,.img-liquid-fill-top{
   background-attachment: fixed;
+}
+.height-625{
+  height:625px;
 }
 .fl{
   float:left;
@@ -44,4 +55,5 @@ ul,li{
 @import "_brand_news2";
 // for inner page
 @import "_store_show";
+@import "_about";
 @import "_foot_nav";

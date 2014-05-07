@@ -1,5 +1,9 @@
-.row.page-section.img-liquid-fill.inner_header#shore-show
-  img.img-bg(src="img/img-1.2.jpg")
+- var clazz = "row page-section img-liquid-fill inner_header"
+if isSmallHeader
+  - clazz = clazz + " height-625"
+div(id=headerId class=clazz)
+  //img.img-bg(src="img/img-1.2.jpg")
+  img.img-bg(src=imgBG)
   .wrapper.center
     .title.ft-NSimSun=title
     .sub-title.ft-arial=subTitle

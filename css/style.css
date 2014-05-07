@@ -21,11 +21,21 @@ ul, li {
     height: 100%;
     margin: 0 auto; }
 
+.page-section-small {
+  height: 645px; }
+  .page-section-small .container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto; }
+
 .img-bg {
   display: none; }
 
 .img-liquid-fill, .img-liquid-fill-top {
   background-attachment: fixed; }
+
+.height-625 {
+  height: 625px; }
 
 .fl {
   float: left; }
@@ -38,6 +48,12 @@ ul, li {
 
 .fz-14 {
   font-size: 14px; }
+
+.fz-12 {
+  font-size: 12px; }
+
+.fz-32 {
+  font-size: 32px; }
 
 .inner_header {
   position: relative; }
@@ -374,6 +390,56 @@ ul, li {
           display: block; }
         #store-show .container .image-outer .store-images li {
           display: inline-block; }
+
+.page-section-small .container {
+  text-align: center; }
+  .page-section-small .container .title {
+    color: #000;
+    margin-top: 150px; }
+  .page-section-small .container .sub-title {
+    color: #999;
+    letter-spacing: 6px; }
+  .page-section-small .container .desc {
+    height: 150px;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+    text-align: left; }
+    .page-section-small .container .desc .jspVerticalBar {
+      width: 7px;
+      background: none; }
+    .page-section-small .container .desc .jspDrag {
+      background: #000; }
+    .page-section-small .container .desc .jspTrack {
+      background: url(../img/scroller-bg-2.png) repeat-y; }
+
+#brand-intro-desc, #brand-position-desc, #about-story-desc {
+  text-align: center;
+  font-size: 12px; }
+  #brand-intro-desc .container, #brand-position-desc .container, #about-story-desc .container {
+    width: 530px; }
+  #brand-intro-desc .w-450, #brand-position-desc .w-450, #about-story-desc .w-450 {
+    width: 450px; }
+  #brand-intro-desc .w-580, #brand-position-desc .w-580, #about-story-desc .w-580 {
+    width: 580px; }
+  #brand-intro-desc .s1, #brand-position-desc .s1, #about-story-desc .s1 {
+    margin-top: 210px; }
+  #brand-intro-desc .s4, #brand-position-desc .s4, #about-story-desc .s4 {
+    margin-top: 250px; }
+  #brand-intro-desc .s2, #brand-intro-desc .s3, #brand-position-desc .s2, #brand-position-desc .s3, #about-story-desc .s2, #about-story-desc .s3 {
+    margin-top: 20px; }
+  #brand-intro-desc .title, #brand-position-desc .title, #about-story-desc .title {
+    font-family: SimSun;
+    color: #999;
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 1.8em; }
+  #brand-intro-desc .sub-desc, #brand-position-desc .sub-desc, #about-story-desc .sub-desc {
+    font-family: SimSun;
+    color: #999;
+    line-height: 1.8em; }
 
 #foot-nav {
   width: 100%;

@@ -1,0 +1,67 @@
+.page-section-small{
+  .container{
+    text-align:center;
+    .title{
+      color:#000;
+      margin-top:150px;
+    }
+    .sub-title{
+      color:#999;
+      letter-spacing:6px;
+    }
+    .desc{
+      height:150px;
+      width:600px;
+      margin:0 auto;
+      font-size:12px;
+      color:#999;
+      margin-top:20px;
+      text-align:left;
+      .jspVerticalBar{
+        width:7px;
+        background:none;
+      }
+      .jspDrag{
+        background:#000;
+      }
+      .jspTrack{
+        background:url(../img/scroller-bg-2.png) repeat-y;
+      }
+    }
+  }
+}
+#brand-intro-desc,#brand-position-desc,#about-story-desc{
+  .container{
+    width:530px;
+  }
+  .w-450{
+    width:450px;
+  }
+  .w-580{
+    width:580px;
+  }
+  text-align:center;
+  font-size:12px;
+  .s1{
+    margin-top:210px;
+  }
+  .s4{
+    margin-top:250px;
+  }
+  .s2,.s3{
+    margin-top:20px;
+  }
+  .title{
+    font-family:SimSun;
+    color:#999;
+    font-weight:bold;
+    margin-top:0;
+    line-height:1.8em;
+  }
+
+  .sub-desc{
+    font-family:SimSun;
+    color:#999;
+    line-height:1.8em;
+  }
+}
