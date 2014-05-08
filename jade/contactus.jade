@@ -1,0 +1,31 @@
+doctype html
+- var title = "联系我们"
+- var subTitle = "CONTACT US"
+- var headerId = "contact-us"
+- var imgBG = "img/img-1.2.jpg"
+html
+  include _header
+  body
+    include _top_nav
+    include _inner_header
+    .row.page-section#contact-us-desc
+      .container
+        .split
+        .content
+          img.left-img.fl(src="img/contact-us.jpg")
+          .desc.fl
+            img(src="img/txt-brand.jpg")
+            .title 杭州映山红服饰有限公司
+            .addr 地 址：浙江杭州****区****路***号
+            .phone 电 话：5656265695
+            .fax 传 真：40060-654681
+            .ipt-group
+              input(placeholder="Name")
+            .ipt-group
+              input(placeholder="Phone")
+            .ipt-group
+              input(placeholder="Mailbox")
+            .ipt-group
+              textarea(placeholder="Content")
+    include _foot_nav
+    include _foot

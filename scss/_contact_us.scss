@@ -1,0 +1,49 @@
+#contact-us-desc{
+  .container{
+    width:1000px;
+    height:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin:0 auto;
+    position:relative;
+    .split{
+      height:0px;
+      border:1px solid #999;
+      margin-top:60px;
+    }
+    .content{
+      margin-top:175px;
+      font-family:SimSun;
+      font-size:14px;
+      color:#333;
+      .left-img{
+        margin-left:290px;
+      }
+      .desc{
+        padding-left:30px;
+        .title{
+          margin-top:20px;
+          margin-bottom:20px;
+        }
+        .addr,.phone,.fax{
+          line-height:2em;
+          font-size:12px;
+        }
+        .ipt-group{
+          margin:15px 0;
+          input{
+            width:182px;
+            height:20px;
+            border:1px solid #ccc;
+          }
+          textarea{
+            height:90px;
+            width:180px;
+            border:1px solid #ccc;
+            resize:none;
+          }
+        }
+      }
+    }// END .content
+  }// END .container
+}
