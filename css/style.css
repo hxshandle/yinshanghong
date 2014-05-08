@@ -43,6 +43,9 @@ ul, li {
 .ft-NSimSun {
   font-family: NSimSun; }
 
+.ft-SimSun {
+  font-family: SimSun; }
+
 .ft-arial {
   font-family: Arial; }
 
@@ -440,6 +443,37 @@ ul, li {
     font-family: SimSun;
     color: #999;
     line-height: 1.8em; }
+
+#jiameng .container {
+  width: 1000px;
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0 auto; }
+  #jiameng .container .split {
+    height: 0;
+    border-bottom: 1px solid #999;
+    margin-top: 60px; }
+  #jiameng .container .content {
+    margin-top: 112px; }
+    #jiameng .container .content .desc {
+      height: 392px;
+      width: 650px;
+      padding-left: 43px; }
+      #jiameng .container .content .desc .jspDrag {
+        background: #666; }
+      #jiameng .container .content .desc .jspVerticalBar {
+        background: none; }
+      #jiameng .container .content .desc .jspTrack {
+        background: url(../img/scroller-bg-2.png) repeat-y; }
+      #jiameng .container .content .desc .t1, #jiameng .container .content .desc .t2 {
+        color: #999;
+        font-size: 12px; }
+      #jiameng .container .content .desc .t1 {
+        font-weight: bold;
+        margin-top: 30px; }
+        #jiameng .container .content .desc .t1.no-mt {
+          margin-top: 0px; }
 
 #foot-nav {
   width: 100%;

@@ -1,0 +1,30 @@
+doctype html
+- var title = "加盟中心"
+- var subTitle = "JOINED THE CENTER"
+- var headerId = "join-center"
+- var imgBG = "img/img-1.2.jpg"
+html
+  include _header
+  body
+    include _top_nav
+    include _inner_header
+    .row.page-section#jiameng
+      .container
+        .split
+        .content
+          img.fl(src="img/jiameng-contact.jpg")
+          .desc.jScrollPane.fl
+            - for (var i =0; i < 10;i++)
+              - var clazz = "t1 ft-SimSun"
+              if i == 0
+                - clazz = clazz +" no-mt"
+              div(class=clazz) 扶持政策
+              .t2.ft-SimSun【道具返利支持】道具由公司统一安排制作，并给予返利支持；
+              .t2.ft-SimSun【 宣传品支持 】公司统一提供店面形象设计、形象海报、POP、画册、购物袋形象图等；
+              .t2.ft-SimSun【  广告支持  】公司按合同约定年终进行广告费用补贴；
+              .t2.ft-SimSun【市场推广策划】公司定期为各地加盟店进行产品知识、销售推广、现场辅导及货品陈列等培训；
+
+
+
+    include _foot_nav
+    include _foot
