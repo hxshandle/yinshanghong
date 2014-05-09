@@ -1,0 +1,105 @@
+#brand-news-details{
+  min-height:900px;
+  height:auto;
+  .container{
+    width:1000px;
+    height:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin:0 auto;
+    .split{
+      height:0px;
+      border:1px solid #999;
+      margin-top:60px;
+    }
+    .content{
+      .inner{
+        width:800px;
+        margin:0 auto;
+      }
+      margin-top:45px;
+      .sbHolder{
+        border:0;
+        text-align:right;
+        width:100px;
+        .sbSelector{
+          width:70px;
+        }
+
+      }
+      .sbOptions{
+        border:0px;
+        width:100px;
+        a{
+          border-bottom:0px;
+        padding-right:22px;
+        }
+      }
+      .search-area{
+        .search-inner{
+          .right-arrow{
+            margin-right:10px;
+          }
+        }// NED .search-inner
+      }// END .search-area
+      .clear{
+        clear:both;
+      } 
+      .holder{
+        text-align:center;
+        margin:60px 0;
+        font-size:14px;
+      }
+      .news-list{
+        li{
+          font-size:12px;
+          padding:40px 0;
+          color:#999;
+          border-bottom:1px dotted #ccc;
+          .news-content-wrapper{
+            box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            width:570px;
+            height:138px;
+            padding-left:20px;
+            position:relative;
+            &.unlimit{
+              height:auto;
+              .news-content{
+                height:auto;
+              }
+              .act{
+                .more{
+                  display:none;
+                }
+                .less{
+                  display:inline;
+                }
+              }// NED .act
+
+            }// END .unlimit
+            .news-content{
+              height:80px;
+              overflow:hidden;
+              margin-bottom:30px;
+              p{
+                margin:0px;
+              }
+            }// END .news-content
+            .act{
+              position:absolute;
+              bottom:0;
+              .less{
+                display:none;
+              }
+              .more{
+                display:inline;
+              }
+            }
+          }// END .news-content-wrapper
+        }// END .news-list
+      }// END .news-list
+    }// END .content
+  }// END .container
+}
+

@@ -1,0 +1,53 @@
+mixin gdata
+  - var baseYear = 2015;
+  - for (var i = 0; i < 5 ;i++)
+    - baseYear--
+    input(type='hidden' class='d-year' "data-sub"="month-sel" "data-ref"="d-year-#{i}" "data-id"="year-#{i}" "data-label"=baseYear "id"="year-#{i}")
+    - for ( var k = 0; k < 12; k++)
+      - var _m = k+1
+      input(type="hidden" class="d-year-#{i}" "id"="month-#{i}-#{k}" "data-id"="month-#{i}-#{k}" "data-label"="#{_m}月")
+      
+
+
+
+.row.page-section#brand-news-details
+  .container
+    .split
+    .content
+      .inner
+        .search-area
+          input.default-year(type="hidden" name="default-year" value="2014")
+          input.default-month(type="hidden" name="default-month" value="5")
+          .search-inner
+            .fl
+              img.right-arrow(src="img/black-arrow-right.png")
+              span.ft-NimSun.fz-14 最新新闻/News
+            input.default-province(type='hidden' value='d-province')
+            .year-sel-box.fl
+              select.year-sel.fl#year-sel(name="year-sel")
+                option(value="2014") 2014
+                option(value="2013") 2013
+                option(value="2012") 2012
+                option(value="2011") 2011
+            .month-sel-box.fl
+              select.month-sel.fl#month-sel(name="month-sel")
+                - for (var i =1; i< 13;i++)
+                  option(value="#{i}") #{i}月
+        .clear
+        ul.news-list#news-list
+          - for (var i = 0 ;i<30;i++)
+            li
+              .news-item
+                img.fl(src="img/news-item.jpg")
+                .news-content-wrapper.fl
+                  .news-content
+                    p 于2014年推出的Apxx-Jones 男装系列，延续了品牌轻松舒适的特点，用ApxxJones的特色诠释了“新古典绅士主义”的回归。怀旧式的正统，前卫式的时尚让Apxx-Jones男士轻松游走在张的都市感与慢节奏的自然感之间。创新的剪裁，精心挑选的进口面料，充满幽默感的小细节，让穿着不仅是一种轻松有趣的体验，也是一种自我时尚态度的畅快表达。
+                    p 于2014年推出的Apxx-Jones 男装系列，延续了品牌轻松舒适的特点，用ApxxJones的特色诠释了“新古典绅士主义”的回归。怀旧式的正统，前卫式的时尚让Apxx-Jones男士轻松游走在张的都市感与慢节奏的自然感之间。创新的剪裁，精心挑选的进口面料，充满幽默感的小细节，让穿着不仅是一种轻松有趣的体验，也是一种自我时尚态度的畅快表达。
+                    p 于2014年推出的Apxx-Jones 男装系列，延续了品牌轻松舒适的特点，用ApxxJones的特色诠释了“新古典绅士主义”的回归。怀旧式的正统，前卫式的时尚让Apxx-Jones男士轻松游走在张的都市感与慢节奏的自然感之间。创新的剪裁，精心挑选的进口面料，充满幽默感的小细节，让穿着不仅是一种轻松有趣的体验，也是一种自我时尚态度的畅快表达。
+                  .act
+                    a.more(href="javascript:void(0)") 了解更过 >>
+                    a.less(href="javascript:void(0)") 收起 <<
+              .clear
+        .holder
+
+
