@@ -1,0 +1,126 @@
+body{
+  background:#f1f0ec;
+}
+#mask{
+  position:fixed;
+  z-index:9999;
+  height:100%;
+  width:100%;
+  left:0;
+  top:0;
+  background:url(../img/mask-bg.png);
+  display:none;
+  &.active{
+    display:block;
+  }
+  .disp-wrapper{
+    margin:0 auto;
+  }
+  a{
+    cursor:pointer;
+  }
+  .close{
+    position:absolute;
+    right:50px;
+    top:25px;
+    z-index:1;
+  }
+  .pre,.next{
+    width:100px;
+    height:100%;
+    position:absolute;
+  }
+  .pre{
+    background:url(../img/arrow-l.png) no-repeat 50% 50%;
+    left:0px;
+  }
+  .next{
+    background:url(../img/arrow-r.png) no-repeat 50% 50%;
+    right:0px;
+  }
+}
+#fashion-show{
+  height:1300px;
+  .clear{
+    clear:both;
+  }
+  .container{
+    width:1000px;
+    height:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin:0 auto;
+    .split{
+      height:0px;
+      border:1px solid #999;
+      margin-top:60px;
+    }
+    .content{
+      margin-top:50px;
+      .inner{
+        width:600px;
+        margin:0 auto;
+        .sbHolder{
+          border:0;
+          text-align:right;
+          width:100px;
+          .sbSelector{
+            width:70px;
+          }
+        }
+        .sbOptions{
+          border:0px;
+          width:100px;
+          a{
+            border-bottom:0px;
+          padding-right:22px;
+          }
+        }
+        .search-inner{
+          .series,.img-type{
+            margin-left:70px;
+            
+           .active{
+              img{
+                visibility:visible;
+              }
+              a{
+                text-decoration:underline;
+                color:#000;
+              }
+            }
+            img{
+              margin-right:10px;
+              visibility:hidden;
+            }
+            a{
+              font-family:Arial;
+              font-size:12px;
+              color:#999;
+              text-decoration:none;
+              &:hover{
+                text-decoration:underline;
+                color:#000;
+              }
+            }
+          }// END .series
+        }// END .search-inner
+        .img-gallery{
+          margin-top:100px;
+          li{
+            float:left;
+            margin-bottom:20px;
+            margin-left:20px;
+          }
+          .noml{
+            margin-left:0px;
+          }
+        }// END .img-gallery
+        .holder{
+          margin-top:50px;
+        }
+        
+      }// END .inner
+    }// END .content
+  }// END .container
+}// NED #fashion-show

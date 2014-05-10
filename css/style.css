@@ -77,7 +77,7 @@ ul, li {
   background: #f1f0ec;
   width: 100%;
   top: 0px;
-  z-index: 99999; }
+  z-index: 999; }
   .top-nav .logo {
     margin-left: 40px; }
   .top-nav .top-menu {
@@ -585,14 +585,111 @@ ul, li {
             #brand-news-details .container .content .news-list li .news-content-wrapper .act .more {
               display: inline; }
 
+body {
+  background: #f1f0ec; }
+
+#mask {
+  position: fixed;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: url(../img/mask-bg.png);
+  display: none; }
+  #mask.active {
+    display: block; }
+  #mask .disp-wrapper {
+    margin: 0 auto; }
+  #mask a {
+    cursor: pointer; }
+  #mask .close {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    z-index: 1; }
+  #mask .pre, #mask .next {
+    width: 100px;
+    height: 100%;
+    position: absolute; }
+  #mask .pre {
+    background: url(../img/arrow-l.png) no-repeat 50% 50%;
+    left: 0px; }
+  #mask .next {
+    background: url(../img/arrow-r.png) no-repeat 50% 50%;
+    right: 0px; }
+
+#fashion-show {
+  height: 1300px; }
+  #fashion-show .clear {
+    clear: both; }
+  #fashion-show .container {
+    width: 1000px;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0 auto; }
+    #fashion-show .container .split {
+      height: 0px;
+      border: 1px solid #999;
+      margin-top: 60px; }
+    #fashion-show .container .content {
+      margin-top: 50px; }
+      #fashion-show .container .content .inner {
+        width: 600px;
+        margin: 0 auto; }
+        #fashion-show .container .content .inner .sbHolder {
+          border: 0;
+          text-align: right;
+          width: 100px; }
+          #fashion-show .container .content .inner .sbHolder .sbSelector {
+            width: 70px; }
+        #fashion-show .container .content .inner .sbOptions {
+          border: 0px;
+          width: 100px; }
+          #fashion-show .container .content .inner .sbOptions a {
+            border-bottom: 0px;
+            padding-right: 22px; }
+        #fashion-show .container .content .inner .search-inner .series, #fashion-show .container .content .inner .search-inner .img-type {
+          margin-left: 70px; }
+          #fashion-show .container .content .inner .search-inner .series .active img, #fashion-show .container .content .inner .search-inner .img-type .active img {
+            visibility: visible; }
+          #fashion-show .container .content .inner .search-inner .series .active a, #fashion-show .container .content .inner .search-inner .img-type .active a {
+            text-decoration: underline;
+            color: #000; }
+          #fashion-show .container .content .inner .search-inner .series img, #fashion-show .container .content .inner .search-inner .img-type img {
+            margin-right: 10px;
+            visibility: hidden; }
+          #fashion-show .container .content .inner .search-inner .series a, #fashion-show .container .content .inner .search-inner .img-type a {
+            font-family: Arial;
+            font-size: 12px;
+            color: #999;
+            text-decoration: none; }
+            #fashion-show .container .content .inner .search-inner .series a:hover, #fashion-show .container .content .inner .search-inner .img-type a:hover {
+              text-decoration: underline;
+              color: #000; }
+        #fashion-show .container .content .inner .img-gallery {
+          margin-top: 100px; }
+          #fashion-show .container .content .inner .img-gallery li {
+            float: left;
+            margin-bottom: 20px;
+            margin-left: 20px; }
+          #fashion-show .container .content .inner .img-gallery .noml {
+            margin-left: 0px; }
+        #fashion-show .container .content .inner .holder {
+          margin-top: 50px; }
+
 #foot-nav {
   width: 100%;
   height: 330px;
   background: #f1f0ec;
   position: relative; }
+  #foot-nav .foot-shadow {
+    background: url(../img/foot-shaodow.png) repeat-x #f1f0ec;
+    height: 9px; }
   #foot-nav #move-top {
     position: absolute;
-    top: 0;
+    top: 9px;
     left: 50%;
     margin-left: -25px;
     display: block;

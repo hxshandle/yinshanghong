@@ -3,9 +3,14 @@
   height:330px;
   background:#f1f0ec;
   position:relative;
+  .foot-shadow{
+    background:url(../img/foot-shaodow.png) repeat-x #f1f0ec;
+    height:9px;
+
+  }
   #move-top{
     position:absolute;
-    top:0;
+    top:9px;
     left:50%;
     margin-left:-25px;
     display:block;

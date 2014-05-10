@@ -1,0 +1,55 @@
+#mask
+  a.close
+    img(src="img/close.png")
+  a.pre
+  a.next
+  .disp-wrapper
+    img.disp-img(src="img/_.png")
+
+.row.page-section#fashion-show
+  .container
+    .split
+    .content
+      input.default-series(type='hidden' value="spring")
+      input.default-type(type='hidden' value="ad")
+      .inner
+        .search-area
+          .search-inner
+            .year-sel-box.fl
+              select.year-sel.fl#year-sel(name="year-sel")
+                option(value="2014") 2014
+                option(value="2013") 2013
+                option(value="2012") 2012
+                option(value="2011") 2011
+            ul.series.fl
+              li.spring
+                img(src="img/black-arrow-right.png")
+                a(href="javascript:void(0)") Spring series
+              li.summer
+                img(src="img/black-arrow-right.png")
+                a(href="javascript:void(0)") Summer series
+              li.autumn
+                img(src="img/black-arrow-right.png")
+                a(href="javascript:void(0)") Autumn series
+              li.winter
+                img(src="img/black-arrow-right.png")
+                a(href="javascript:void(0)") Winter series
+            ul.img-type.fl
+              li.collocation
+                img(src="img/black-arrow-right.png")
+                a.active(href="javascript:void(0)") Collocation
+              li.ad
+                img(src="img/black-arrow-right.png")
+                a(href="javascript:void(0)") Ad campaign
+        .clear
+        - var imgs = ["fz_03.jpg","fz_05.jpg","fz_07.jpg"]
+        ul.img-gallery#img-gallery
+          - for (var i = 0 ; i< 30; i++)
+            - var imgSrc = "img/"+imgs[i%3]
+            - var clazz = i%3 ==0? "noml img-item" : "img-item"
+            li(class=clazz data-ref=imgSrc)
+              a(href="javascript:void(0)")
+                img(src=imgSrc)
+        .clear
+        .holder
+    
