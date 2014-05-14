@@ -1,9 +1,12 @@
 .page-section-small{
   .container{
     text-align:center;
+    position:relative;
+    .pl-150{
+      padding-top:150px;
+    }
     .title{
       color:#000;
-      margin-top:150px;
     }
     .sub-title{
       color:#999;
@@ -43,10 +46,10 @@
   text-align:center;
   font-size:12px;
   .s1{
-    margin-top:210px;
+    padding-top:210px;
   }
   .s4{
-    margin-top:250px;
+    padding-top:250px;
   }
   .s2,.s3{
     margin-top:20px;

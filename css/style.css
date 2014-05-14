@@ -71,6 +71,10 @@ ul, li {
       font-size: 12px;
       letter-spacing: 12px; }
 
+.height-250 {
+  height: 250px;
+  margin-top: 100px; }
+
 .top-nav {
   height: 62px;
   position: fixed;
@@ -395,10 +399,12 @@ ul, li {
           display: inline-block; }
 
 .page-section-small .container {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+  .page-section-small .container .pl-150 {
+    padding-top: 150px; }
   .page-section-small .container .title {
-    color: #000;
-    margin-top: 150px; }
+    color: #000; }
   .page-section-small .container .sub-title {
     color: #999;
     letter-spacing: 6px; }
@@ -428,9 +434,9 @@ ul, li {
   #brand-intro-desc .w-580, #brand-position-desc .w-580, #about-story-desc .w-580 {
     width: 580px; }
   #brand-intro-desc .s1, #brand-position-desc .s1, #about-story-desc .s1 {
-    margin-top: 210px; }
+    padding-top: 210px; }
   #brand-intro-desc .s4, #brand-position-desc .s4, #about-story-desc .s4 {
-    margin-top: 250px; }
+    padding-top: 250px; }
   #brand-intro-desc .s2, #brand-intro-desc .s3, #brand-position-desc .s2, #brand-position-desc .s3, #about-story-desc .s2, #about-story-desc .s3 {
     margin-top: 20px; }
   #brand-intro-desc .title, #brand-position-desc .title, #about-story-desc .title {
@@ -635,6 +641,55 @@ body {
       margin-top: 60px; }
     #fashion-show .container .content {
       margin-top: 50px; }
+      #fashion-show .container .content .collocations-wrapper {
+        width: 600px;
+        margin: 0 auto; }
+        #fashion-show .container .content .collocations-wrapper .img-gallery {
+          margin-top: 100px;
+          display: none; }
+          #fashion-show .container .content .collocations-wrapper .img-gallery.active {
+            display: block; }
+          #fashion-show .container .content .collocations-wrapper .img-gallery li {
+            float: left;
+            margin-bottom: 20px;
+            margin-left: 20px; }
+          #fashion-show .container .content .collocations-wrapper .img-gallery .noml {
+            margin-left: 0px; }
+        #fashion-show .container .content .collocations-wrapper .holder {
+          margin-top: 50px; }
+      #fashion-show .container .content .videos-wrapper {
+        width: 870px;
+        margin: 0 auto;
+        margin-top: 100px; }
+        #fashion-show .container .content .videos-wrapper .videos .video-gallery {
+          display: none; }
+          #fashion-show .container .content .videos-wrapper .videos .video-gallery.active {
+            display: block; }
+        #fashion-show .container .content .videos-wrapper .videos .video-nav {
+          width: 184px; }
+          #fashion-show .container .content .videos-wrapper .videos .video-nav .holder a {
+            display: none; }
+          #fashion-show .container .content .videos-wrapper .videos .video-nav .holder .jp-previous, #fashion-show .container .content .videos-wrapper .videos .video-nav .holder .jp-next {
+            display: inline; }
+          #fashion-show .container .content .videos-wrapper .videos .video-nav .video li {
+            display: inline-block;
+            width: 87px;
+            margin-bottom: 10px; }
+        #fashion-show .container .content .videos-wrapper .videos .video-disp {
+          margin-left: 10px; }
+        #fashion-show .container .content .videos-wrapper .videos .play-thumb {
+          position: relative;
+          width: 87;
+          height: 111px; }
+          #fashion-show .container .content .videos-wrapper .videos .play-thumb .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: -17px;
+            margin-left: -17px;
+            width: 34px;
+            height: 34px;
+            background: url(../img/play.png); }
       #fashion-show .container .content .inner {
         width: 600px;
         margin: 0 auto; }
@@ -668,14 +723,6 @@ body {
             #fashion-show .container .content .inner .search-inner .series a:hover, #fashion-show .container .content .inner .search-inner .img-type a:hover {
               text-decoration: underline;
               color: #000; }
-        #fashion-show .container .content .inner .img-gallery {
-          margin-top: 100px; }
-          #fashion-show .container .content .inner .img-gallery li {
-            float: left;
-            margin-bottom: 20px;
-            margin-left: 20px; }
-          #fashion-show .container .content .inner .img-gallery .noml {
-            margin-left: 0px; }
         #fashion-show .container .content .inner .holder {
           margin-top: 50px; }
 

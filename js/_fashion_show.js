@@ -3,12 +3,42 @@ $(function() {
   var defaultType = $('.default-type').val();
   $('.'+defaultSeries).addClass('active');
   $('.'+defaultType).addClass('active');
-  $('.holder').jPages({
-    containerID: 'img-gallery',
-    perPage: 9,
-    previous: '上一页',
-    next: '下一页'
+
+  $('.img-gallery .holder').each(function(){
+      var $this = $(this);
+      var containerId = $this.parent(".img-gallery").children(".collocation").eq(0).attr("id");
+      $this.jPages({
+      containerID: containerId,
+      perPage: 9,
+      previous: '上一页',
+      next: '下一页'
+    });
   });
+  $('.video .holder').each(function(){
+      var $this = $(this);
+      var containerId = $this.parent(".video-nav").children(".video").eq(0).attr("id");
+      $this.jPages({
+      containerID: containerId,
+      perPage: 4,
+      previous: '上一页',
+      next: '下一页'
+    });
+
+  });
+
+  function switchView(){
+    var year = $('#year-sel').val();
+    var series =$('.series .active').eq(0).data('ref');
+    var type = $('.img-type .active').eq(0).data('ref');
+    $('.img-gallery .active,.video-gallery .active').removeClass('active');
+    var prefix = type == "collocation" ? "#y-":"#v-";
+    var id = prefix + year+"-"+series;
+    $(id).addClass('active');
+  }
+
+  switchView();
+
+
   $('#mask .close').click(function() {
     $('#mask').removeClass('active');
   });

@@ -5,13 +5,17 @@
   a.next
   .disp-wrapper
     img.disp-img(src="img/_.png")
+- var years = ["2014","2013","2012","2011"]
+- var series = ["spring","summer","autumn","winter"]
+- var types = ["collocation","video"]
+- var videos = ["http://player.youku.com/embed/XNzA0MzQzMDQw","http://player.youku.com/embed/XNjU1NTEzNjI4"]
 
 .row.page-section#fashion-show
   .container
     .split
     .content
       input.default-series(type='hidden' value="spring")
-      input.default-type(type='hidden' value="ad")
+      input.default-type(type='hidden' value="collocation")
       .inner
         .search-area
           .search-inner
@@ -22,34 +26,69 @@
                 option(value="2012") 2012
                 option(value="2011") 2011
             ul.series.fl
-              li.spring
+              li.spring(data-ref="spring")
                 img(src="img/black-arrow-right.png")
                 a(href="javascript:void(0)") Spring series
-              li.summer
+              li.summer(data-ref="summer")
                 img(src="img/black-arrow-right.png")
                 a(href="javascript:void(0)") Summer series
-              li.autumn
+              li.autumn(data-ref="autumn")
                 img(src="img/black-arrow-right.png")
                 a(href="javascript:void(0)") Autumn series
-              li.winter
+              li.winter(data-ref="winter")
                 img(src="img/black-arrow-right.png")
                 a(href="javascript:void(0)") Winter series
             ul.img-type.fl
-              li.collocation
+              li.collocation(data-ref="collocation")
                 img(src="img/black-arrow-right.png")
                 a.active(href="javascript:void(0)") Collocation
-              li.ad
+              li.video(data-ref="video")
                 img(src="img/black-arrow-right.png")
-                a(href="javascript:void(0)") Ad campaign
+                a(href="javascript:void(0)") Video
         .clear
         - var imgs = ["fz_03.jpg","fz_05.jpg","fz_07.jpg"]
-        ul.img-gallery#img-gallery
-          - for (var i = 0 ; i< 30; i++)
-            - var imgSrc = "img/"+imgs[i%3]
-            - var clazz = i%3 ==0? "noml img-item" : "img-item"
-            li(class=clazz data-ref=imgSrc)
-              a(href="javascript:void(0)")
-                img(src=imgSrc)
-        .clear
-        .holder
-    
+      .collocations-wrapper
+        .collocations
+          - for (var p in years)
+            - var year = years[p]
+            - for (var k in series)
+              - var s = series[k]
+              - var cId = "y-"+year+"-"+s
+              - var iId = "c-"+year+"-"+s
+              .img-gallery(id=cId)
+                ul.collocation(id=iId)
+                  - for (var i = 0 ; i< 30; i++)
+                    - var imgSrc = "img/"+imgs[i%3]
+                    - var clazz = i%3 ==0? "noml img-item" : "img-item"
+                    li(class=clazz data-ref=imgSrc)
+                      a(href="javascript:void(0)")
+                        img(src=imgSrc)
+                .clear
+                .holder
+
+      .videos-wrapper
+        .videos
+          - for (var p in years)
+            - var year = years[p]
+            - for (var k in series)
+              - var s = series[k]
+              - var cId = "v-"+year+"-"+s
+              - var iId = "d-"+year+"-"+s
+              .video-gallery(id=cId)
+                .video-nav.fl
+                  ul.video(id=iId)
+                    - for (var i = 0 ; i< 6; i++)
+                      - var imgSrc = "img/"+imgs[i%3]
+                      - var clazz = i%3 ==0? "noml img-item" : "img-item"
+                      li(class=clazz data-ref=videos[i%2])
+                        a(href="javascript:void(0)")
+                          .play-thumb
+                            i.icon
+                            img(src="img/video.jpg")
+
+                  .clear
+                  .holder
+                .video-disp.fl
+                  iframe(src=videos[k%2] height=511 width=664 frameborder=0 allowfullscreen) 
+
+          

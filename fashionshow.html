@@ -17,7 +17,7 @@
   <body>
     <div class="top-nav"><img src="img/logo.png" class="logo">
       <ul class="top-menu">
-        <li><a href="#landing" data-zh="首页">HOME</a></li>
+        <li><a href="home.html" data-zh="首页">HOME</a></li>
         <li><a href="about.html" data-zh="关于我们">ABOUT US</a></li>
         <li><a href="fashionshow.html" data-zh="时尚秀">FASHION SHOW</a></li>
         <li><a href="#collaction" data-zh="搭配">COLLOCATION</a></li>
@@ -27,7 +27,7 @@
         <li><a href="contactus.html" data-zh="联系我们">CONTACT US</a></li>
       </ul>
     </div>
-    <div id="fashion-show-header" class="row page-section img-liquid-fill inner_header">
+    <div id="fashion-show-header" class="row page-section img-liquid-fill inner_header height-250">
       <!--img.img-bg(src="img/img-1.2.jpg")--><img src="img/img-1.2.jpg" class="img-bg">
       <div class="wrapper center">
         <div class="title ft-NSimSun">服装展示</div>
@@ -42,7 +42,7 @@
         <div class="split"></div>
         <div class="content">
           <input type="hidden" value="spring" class="default-series">
-          <input type="hidden" value="ad" class="default-type">
+          <input type="hidden" value="collocation" class="default-type">
           <div class="inner">
             <div class="search-area">
               <div class="search-inner">
@@ -55,52 +55,970 @@
                   </select>
                 </div>
                 <ul class="series fl">
-                  <li class="spring"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Spring series</a></li>
-                  <li class="summer"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Summer series</a></li>
-                  <li class="autumn"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Autumn series</a></li>
-                  <li class="winter"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Winter series</a></li>
+                  <li data-ref="spring" class="spring"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Spring series</a></li>
+                  <li data-ref="summer" class="summer"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Summer series</a></li>
+                  <li data-ref="autumn" class="autumn"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Autumn series</a></li>
+                  <li data-ref="winter" class="winter"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Winter series</a></li>
                 </ul>
                 <ul class="img-type fl">
-                  <li class="collocation"><img src="img/black-arrow-right.png"><a href="javascript:void(0)" class="active">Collocation</a></li>
-                  <li class="ad"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Ad campaign</a></li>
+                  <li data-ref="collocation" class="collocation"><img src="img/black-arrow-right.png"><a href="javascript:void(0)" class="active">Collocation</a></li>
+                  <li data-ref="video" class="video"><img src="img/black-arrow-right.png"><a href="javascript:void(0)">Video</a></li>
                 </ul>
               </div>
             </div>
             <div class="clear"></div>
-            <ul id="img-gallery" class="img-gallery">
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-              <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
-              <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
-              <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
-            </ul>
-            <div class="clear"></div>
-            <div class="holder"></div>
+          </div>
+          <div class="collocations-wrapper">
+            <div class="collocations">
+              <div id="y-2014-spring" class="img-gallery">
+                <ul id="c-2014-spring" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2014-summer" class="img-gallery">
+                <ul id="c-2014-summer" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2014-autumn" class="img-gallery">
+                <ul id="c-2014-autumn" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2014-winter" class="img-gallery">
+                <ul id="c-2014-winter" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2013-spring" class="img-gallery">
+                <ul id="c-2013-spring" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2013-summer" class="img-gallery">
+                <ul id="c-2013-summer" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2013-autumn" class="img-gallery">
+                <ul id="c-2013-autumn" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2013-winter" class="img-gallery">
+                <ul id="c-2013-winter" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2012-spring" class="img-gallery">
+                <ul id="c-2012-spring" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2012-summer" class="img-gallery">
+                <ul id="c-2012-summer" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2012-autumn" class="img-gallery">
+                <ul id="c-2012-autumn" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2012-winter" class="img-gallery">
+                <ul id="c-2012-winter" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2011-spring" class="img-gallery">
+                <ul id="c-2011-spring" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2011-summer" class="img-gallery">
+                <ul id="c-2011-summer" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2011-autumn" class="img-gallery">
+                <ul id="c-2011-autumn" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+              <div id="y-2011-winter" class="img-gallery">
+                <ul id="c-2011-winter" class="collocation">
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                  <li data-ref="img/fz_03.jpg" class="noml img-item"><a href="javascript:void(0)"><img src="img/fz_03.jpg"></a></li>
+                  <li data-ref="img/fz_05.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_05.jpg"></a></li>
+                  <li data-ref="img/fz_07.jpg" class="img-item"><a href="javascript:void(0)"><img src="img/fz_07.jpg"></a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="holder"></div>
+              </div>
+            </div>
+          </div>
+          <div class="videos-wrapper">
+            <div class="videos">
+              <div id="v-2014-spring" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2014-spring" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2014-summer" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2014-summer" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2014-autumn" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2014-autumn" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2014-winter" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2014-winter" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2013-spring" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2013-spring" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2013-summer" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2013-summer" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2013-autumn" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2013-autumn" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2013-winter" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2013-winter" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2012-spring" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2012-spring" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2012-summer" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2012-summer" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2012-autumn" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2012-autumn" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2012-winter" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2012-winter" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2011-spring" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2011-spring" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2011-summer" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2011-summer" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2011-autumn" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2011-autumn" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNzA0MzQzMDQw" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div id="v-2011-winter" class="video-gallery">
+                <div class="video-nav fl">
+                  <ul id="d-2011-winter" class="video">
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="noml img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNzA0MzQzMDQw" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                    <li data-ref="http://player.youku.com/embed/XNjU1NTEzNjI4" class="img-item"><a href="javascript:void(0)">
+                        <div class="play-thumb"><i class="icon"></i><img src="img/video.jpg"></div></a></li>
+                  </ul>
+                  <div class="clear"></div>
+                  <div class="holder"></div>
+                </div>
+                <div class="video-disp fl">
+                  <iframe src="http://player.youku.com/embed/XNjU1NTEzNjI4" height="511" width="664" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
