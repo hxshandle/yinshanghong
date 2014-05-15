@@ -138,29 +138,27 @@ ul, li {
       padding-right: 15px;
       visibility: visible; }
 
-#landing {
-  margin-top: 62px; }
-  #landing .container-full {
-    height: 100%;
-    position: relative; }
-    #landing .container-full .wrapper {
-      position: absolute;
-      text-align: center;
-      top: 45%;
-      color: #fff; }
-      #landing .container-full .wrapper .title {
-        font-size: 45px; }
-      #landing .container-full .wrapper .split {
-        border-bottom: 1px solid #fff;
-        padding-top: 10px; }
-      #landing .container-full .wrapper .sub-title {
-        font-family: didot;
-        font-size: 16px;
-        letter-spacing: 10px;
-        padding-left: 10px;
-        padding-top: 16px; }
-    #landing .container-full .scroll-down {
-      position: absolute; }
+#landing .container-full {
+  height: 100%;
+  position: relative; }
+  #landing .container-full .wrapper {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    color: #fff; }
+    #landing .container-full .wrapper .title {
+      font-size: 45px; }
+    #landing .container-full .wrapper .split {
+      border-bottom: 1px solid #fff;
+      padding-top: 10px; }
+    #landing .container-full .wrapper .sub-title {
+      font-family: didot;
+      font-size: 16px;
+      letter-spacing: 10px;
+      padding-left: 10px;
+      padding-top: 16px; }
+  #landing .container-full .scroll-down {
+    position: absolute; }
 
 #collaction .container {
   width: 1000px;
@@ -423,6 +421,11 @@ ul, li {
       background: #000; }
     .page-section-small .container .desc .jspTrack {
       background: url(../img/scroller-bg-2.png) repeat-y; }
+
+#about-brand-desc .scroll-down {
+  position: absolute;
+  bottom: none;
+  top: 770px; }
 
 #brand-intro-desc, #brand-position-desc, #about-story-desc {
   text-align: center;
@@ -754,7 +757,7 @@ body {
       font-size: 0px;
       padding-top: 80px; }
       #foot-nav .container ul li {
-        width: 200px;
+        width: 240px;
         height: 100%;
         display: inline-block;
         font-size: 14px;
