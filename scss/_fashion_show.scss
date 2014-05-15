@@ -40,7 +40,8 @@ body{
   }
 }
 #fashion-show{
-  height:1300px;
+  min-height:900px;
+  height:auto;
   .clear{
     clear:both;
   }
