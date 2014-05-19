@@ -88,28 +88,37 @@ $(function() {
 	}
 	var imgCounts = $('.img-item').length;
 	var curIdx = null;
+  var refRoot = null;
 	$('.img-item').click(function() {
 		var $m = $('#mask');
 		$m.addClass('active');
 		var $this = $(this);
 		var ref = $this.data('ref');
 		curIdx = $this.index();
+    refRoot = $this.parent();
 		ShowImg(ref);
 	});
 	$('#mask .pre').click(function() {
 		if (curIdx == 0) {
 			return;
 		}
+    
+    if(!refRoot.children().eq(curIdx-1).is(':visible')){
+      return;
+    }
 		curIdx--;
-		var ref = $('.img-item').eq(curIdx).data('ref');
+		var ref = $('.img-item',refRoot).eq(curIdx).data('ref');
 		ShowImg(ref);
 	});
 	$('#mask .next').click(function() {
 		if (curIdx == imgCounts - 1) {
 			return;
 		}
+    if(!refRoot.children().eq(curIdx+1).is(':visible')){
+      return;
+    }
 		curIdx++;
-		var ref = $('.img-item').eq(curIdx).data('ref');
+		var ref = $('.img-item',refRoot).eq(curIdx).data('ref');
 		ShowImg(ref);
 	});
 });
