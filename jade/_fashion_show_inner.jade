@@ -79,7 +79,7 @@
                   ul.video(id=iId)
                     - for (var i = 0 ; i< 6; i++)
                       - var imgSrc = "img/"+imgs[i%3]
-                      - var clazz = i%3 ==0? "noml img-item" : "img-item"
+                      - var clazz = i%3 ==0? "noml video-item" : "video-item"
                       li(class=clazz data-ref=videos[i%2])
                         a(href="javascript:void(0)")
                           .play-thumb

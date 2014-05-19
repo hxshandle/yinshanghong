@@ -138,29 +138,27 @@ ul, li {
       padding-right: 15px;
       visibility: visible; }
 
-#landing {
-  margin-top: 62px; }
-  #landing .container-full {
-    height: 100%;
-    position: relative; }
-    #landing .container-full .wrapper {
-      position: absolute;
-      text-align: center;
-      top: 45%;
-      color: #fff; }
-      #landing .container-full .wrapper .title {
-        font-size: 45px; }
-      #landing .container-full .wrapper .split {
-        border-bottom: 1px solid #fff;
-        padding-top: 10px; }
-      #landing .container-full .wrapper .sub-title {
-        font-family: didot;
-        font-size: 16px;
-        letter-spacing: 10px;
-        padding-left: 10px;
-        padding-top: 16px; }
-    #landing .container-full .scroll-down {
-      position: absolute; }
+#landing .container-full {
+  height: 100%;
+  position: relative; }
+  #landing .container-full .wrapper {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    color: #fff; }
+    #landing .container-full .wrapper .title {
+      font-size: 45px; }
+    #landing .container-full .wrapper .split {
+      border-bottom: 1px solid #fff;
+      padding-top: 10px; }
+    #landing .container-full .wrapper .sub-title {
+      font-family: didot;
+      font-size: 16px;
+      letter-spacing: 10px;
+      padding-left: 10px;
+      padding-top: 16px; }
+  #landing .container-full .scroll-down {
+    position: absolute; }
 
 #collaction .container {
   width: 1000px;
@@ -238,24 +236,25 @@ ul, li {
     #about-brand2 .container ul li {
       display: inline-block; }
       #about-brand2 .container ul li.ml {
-        margin-left: 90px; }
+        margin-left: 60px; }
       #about-brand2 .container ul li .wrapper {
         width: 300px;
         height: 483px;
         overflow: hidden;
         position: relative;
         text-align: left;
+        padding-left: 17px;
         text-align: left; }
         #about-brand2 .container ul li .wrapper .title {
-          font-size: 14px;
+          font-size: 32px;
           color: #000;
           letter-spacing: 2px;
           padding-top: 12px;
           padding-bottom: 20px; }
         #about-brand2 .container ul li .wrapper .article {
-          font-size: 12px;
+          font-size: 14px;
           color: #999;
-          height: 370px; }
+          height: 340px; }
           #about-brand2 .container ul li .wrapper .article .jspDrag {
             background: #000; }
           #about-brand2 .container ul li .wrapper .article .jspTrack {
@@ -423,6 +422,11 @@ ul, li {
       background: #000; }
     .page-section-small .container .desc .jspTrack {
       background: url(../img/scroller-bg-2.png) repeat-y; }
+
+#about-brand-desc .scroll-down {
+  position: absolute;
+  bottom: none;
+  top: 770px; }
 
 #brand-intro-desc, #brand-position-desc, #about-story-desc {
   text-align: center;
@@ -754,7 +758,7 @@ body {
       font-size: 0px;
       padding-top: 80px; }
       #foot-nav .container ul li {
-        width: 200px;
+        width: 240px;
         height: 100%;
         display: inline-block;
         font-size: 14px;

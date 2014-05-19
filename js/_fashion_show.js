@@ -98,6 +98,11 @@ $(function() {
     refRoot = $this.parent();
 		ShowImg(ref);
 	});
+  $('.video-item').click(function(){
+    var $this = $(this);
+    var root = $this.parents('.video-gallery');
+    var iframe = $('iframe',root).attr("src",$this.data('ref'));
+  });
 	$('#mask .pre').click(function() {
 		if (curIdx == 0) {
 			return;
