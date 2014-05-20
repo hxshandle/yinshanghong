@@ -1,7 +1,7 @@
 $(function() {
 
   var canMove = true;
-  $('.next').click(function() {
+  $('.pre').click(function() {
     if (!canMove) {
       return;
     }
@@ -20,7 +20,7 @@ $(function() {
       }
     });
   });
-  $('.pre').click(function(){
+  $('.next').click(function(){
     if (!canMove) {
       return;
     }

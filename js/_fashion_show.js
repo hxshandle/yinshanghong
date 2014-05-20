@@ -1,6 +1,10 @@
 $(function() {
 	var defaultSeries = $('.default-series').val();
 	var defaultType = $('.default-type').val();
+  // check if the this page have the param
+  var url = $.url();
+  defaultType = url.param('type') || defaultType;
+  defaultSeries = url.param('series') || defaultSeries;
 	$('.' + defaultSeries).addClass('active');
 	$('.' + defaultType).addClass('active');
 
